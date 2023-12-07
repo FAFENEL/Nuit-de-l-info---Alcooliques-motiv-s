@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Styles/quiz.css">
+    <script src="Script/quiz.js"></script>
 </head>
 <body>
+
+
+
+    <div> Quelles énergies sont considérées comme "énergies vertes"?* </div>
+    <input id="Q2check1" type="checkbox">
+    <label for="Q2check1">Énergie solaire</label><br>
+
+    <input id="Q2check2" type="checkbox">
+    <label for="Q2check2">Énergie éolienne</label><br>
+
+    <input id="Q2check3" type="checkbox">
+    <label for="Q2check3">Charbon</label><br>
+
+    <input id="Q2check4" type="checkbox">
+    <label for="Q2check4">Énergie hydraulique</label><br>
+
+    <input id="Q2check5" type="checkbox">
+    <label for="Q2check5">Énergie biomasse</label><br>
+
+    <input id="Q2check6" type="checkbox">
+    <label for="Q2check6">Énergie géothermique</label><br>
+
+    <input id="Q2check7" type="checkbox">
+    <label for="Q2check7">Pétrole</label><br>
+
+    <input id="Q2check8" type="checkbox">
+    <label for="Q2check8">Gaz naturel</label><br>
+
+    <input id="Q2check9" type="checkbox">
+    <label for="Q2check9">Énergie marémotrice et houlomotrice</label><br>
+
+    <input id="Q2check10" type="checkbox">
+    <label for="Q2check10">Énergie nucléaire</label><br>
+
+    <div onclick="quizAnswerMultiple('check1check2check4check5check6check9', 'Q2', 10)">Confirmer mes choix</div>
+    <div class="hidden" id="reponseQ2T">Bonne réponse</div>
+    <div class="hidden" id="reponseQ2F">Mauvaise réponse</div>
+    <br><br><br>
+
+
+
+    <div> Question a une seule réponse </div>
+    <div>La question</div>
+    <div onclick="quizAnswer(true, 'reponseQZ')">Bon choix 1</div>
+    <div onclick="quizAnswer(false, 'reponseQZ')">Mauvais Choix 1</div>
+    <div onclick="quizAnswer(false, 'reponseQZ')">Mauvais Choix 2</div>
+    <div onclick="quizAnswer(false, 'reponseQZ')">Mauvais Choix 3</div>
+    <div class="hidden" id="reponseQZT">Bonne réponse</div>
+    <div class="hidden" id="reponseQZF">Mauvaise réponse</div>
+    <br><br><br>
     
 </body>
 </html>
