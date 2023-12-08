@@ -37,6 +37,8 @@ function quizAnswerMultiple(bonneReponses, question, nbQ)
         reponseF = document.getElementById('reponse' + question + "F");
         reponseT.classList.add("affiche");
         reponseF.classList.remove("affiche");
+        document.getElementById('start').classList.add("hidden");
+        document.getElementById('end').classList.add("affiche");
     }
     else
     {
