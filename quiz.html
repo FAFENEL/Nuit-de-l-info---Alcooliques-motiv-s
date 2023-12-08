@@ -11,44 +11,44 @@
     <div onclick="appear('Q1')">Affiche Question 1</div>
 
     <div class="hidden questionBox" id="Q1">
-        <div onclick="appear('Q1')">Ferme Question 1</div>
+        <img class="croix" onclick="appear('Q1')" src="Ressources/Images/croix.png" alt="croix">
+        <div class="question"> Quelles énergies sont considérées comme "énergies vertes"? </div>
+        <img class="qImg" src="Ressources/Images/croix.png" alt="">
 
-        <div> Quelles énergies sont considérées comme "énergies vertes"?* </div>
-        <input id="Q1check1" type="checkbox">
-        <label for="Q1check1">Énergie solaire</label><br>
+        <div class="flexCenter marginBetweenAnswer">
+            <input id="Q1check1" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check1">Énergie solaire</label class="reponsesLabel">
+            <input id="Q1check2" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check2">Énergie éolienne</label class="reponsesLabel">
+        </div>
 
-        <input id="Q1check2" type="checkbox">
-        <label for="Q1check2">Énergie éolienne</label><br>
+        <div class="flexCenter marginBetweenAnswer">
+            <input id="Q1check3" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check3">Charbon</label class="reponsesLabel">
+            <input id="Q1check4" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check4">Énergie hydraulique</label class="reponsesLabel">
+        </div>
 
-        <input id="Q1check3" type="checkbox">
-        <label for="Q1check3">Charbon</label><br>
+        <div class="flexCenter marginBetweenAnswer">
+            <input id="Q1check5" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check5">Énergie biomasse</label class="reponsesLabel">
+            <input id="Q1check6" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check6">Énergie géothermique</label class="reponsesLabel">
+        </div>
 
-        <input id="Q1check4" type="checkbox">
-        <label for="Q1check4">Énergie hydraulique</label><br>
+        <div class="flexCenter marginBetweenAnswer">
+            <input id="Q1check7" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check7">Énergie marémotrice et houlomotrice</label class="reponsesLabel">
+            <input id="Q1check8" type="checkbox" class="checkbox-round">
+            <label class="reponsesLabel" for="Q1check8">Énergie nucléaire</label class="reponsesLabel">
+        </div>
 
-        <input id="Q1check5" type="checkbox">
-        <label for="Q1check5">Énergie biomasse</label><br>
 
-        <input id="Q1check6" type="checkbox">
-        <label for="Q1check6">Énergie géothermique</label><br>
-
-        <input id="Q1check7" type="checkbox">
-        <label for="Q1check7">Pétrole</label><br>
-
-        <input id="Q1check8" type="checkbox">
-        <label for="Q1check8">Gaz naturel</label><br>
-
-        <input id="Q1check9" type="checkbox">
-        <label for="Q1check9">Énergie marémotrice et houlomotrice</label><br>
-
-        <input id="Q1check10" type="checkbox">
-        <label for="Q1check10">Énergie nucléaire</label><br>
-
-        <div onclick="quizAnswerMultiple('check1check2check4check5check6check9', 'Q1', 10)">Confirmer mes choix</div>
+        <div class="confirme" onclick="quizAnswerMultiple('check1check2check4check5check6check7', 'Q1', 8)">Confirmer mes choix</div>
     </div>
 
     <div class="hidden reponseBox" id="reponseQ1T">
-        <div onclick="appear('reponseQ1T')">Ferme reponse 1</div>
+        <img class="croix" onclick="appear('reponseQ1T')" src="Ressources/Images/croix.png" alt="croix">
         Énergie solaire : Elle est produite en captant la lumière du soleil à l'aide de panneaux solaires photovoltaïques pour générer de l'électricité ou en utilisant la chaleur solaire pour produire de la vapeur et faire tourner des turbines.
         Énergie éolienne : Elle est générée en utilisant la force du vent pour faire tourner des éoliennes qui convertissent cette énergie mécanique en électricité.
         Énergie hydraulique : Elle est produite en utilisant l'énergie cinétique ou potentielle de l'eau en mouvement (comme les cours d'eau ou les chutes d'eau) pour produire de l'électricité à l'aide de turbines.
@@ -58,13 +58,11 @@
         L'énergie verte, également appelée énergie renouvelable, fait référence à l'électricité produite à partir de sources d'énergie naturelles qui sont continuellement renouvelées. Ces sources d'énergie renouvelables sont considérées comme respectueuses de l'environnement, car elles émettent généralement moins de gaz à effet de serre et ont un impact moindre sur les écosystèmes… 
         Mauvaise réponse :
         Charbon : Il s'agit d'une source d'énergie fossile extraite du sol, composée principalement de carbone. Le charbon est utilisé pour produire de l'électricité et comme source de chaleur dans diverses industries.
-        Pétrole : Le pétrole brut est extrait du sous-sol et raffiné pour produire des carburants, des produits pétrochimiques et d'autres produits. Il est largement utilisé dans les transports, l'industrie et la production d'électricité.
-        Gaz naturel : Une source d'énergie fossile constituée principalement de méthane. Le gaz naturel est utilisé pour la production d'électricité, le chauffage et comme carburant dans diverses applications.
         Énergie nucléaire :
         L'énergie nucléaire est produite par la fission nucléaire, où les noyaux d'atomes sont divisés pour libérer une grande quantité d'énergie. Cette énergie est principalement utilisée pour la production d'électricité dans les centrales nucléaires.
     </div>
     <div class="hidden reponseBox" id="reponseQ1F">
-        <div onclick="appear('reponseQ1F')">Ferme reponse 1</div>
+        <img class="croix" onclick="appear('reponseQ1F')" src="Ressources/Images/croix.png" alt="croix">
         L'énergie verte, également appelée énergie renouvelable, fait référence à l'électricité produite à partir de sources d'énergie naturelles qui sont continuellement renouvelées. Ces sources d'énergie renouvelables sont considérées comme respectueuses de l'environnement car elles émettent généralement moins de gaz à effet de serre et ont un impact moindre sur les écosystèmes.. 
     </div>
 

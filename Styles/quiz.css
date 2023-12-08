@@ -1,3 +1,13 @@
+.body {
+    overflow: hidden;
+}
+
+* {
+    font-family: Laila;
+}
+
+/* appear */
+
 .hidden {
     visibility: hidden;
 }
@@ -6,34 +16,133 @@
     visibility: visible !important;
 }
 
+/* Question Box */
 .questionBox {
     width: 80%;
-    height: 80%;
+    height: 95%;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 50px;
     border: 3px solid black;
     border-radius: 20px;
     background-color: white;
 }
 
+.croix {
+    margin: 10px 10px 0 0;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+
+.question {
+    text-align: center;
+    font-size: 2.2vw;
+    font-family: Merienda;
+    margin: 30px 100px 0 100px;
+}
+
+.qImg {
+    width: 14vw;
+    height: 14vw;
+    display: block;
+    margin: auto;
+}
+
+.reponsesLabel {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 25vw;
+    font-size: 1.3vw;
+    margin-right: 50px;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.reponsesLabel:hover {
+    background-color: #45A580;
+    scale: 1.05;
+}
+
+.marginBetweenAnswer {
+    margin-bottom: 10px;
+}
+
+.checkbox-round {
+    width: 2.2vw;
+    height: 2.2vw;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #a5a5a5;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
+
+.confirme {
+    text-align: center;
+    margin: auto;
+    margin-top: 1vw;
+    width: fit-content;
+    padding: 10px;
+    background: linear-gradient(#45A580, #077585);
+    border-radius: 1.8vw;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.confirme:hover {
+    scale: 1.1
+}
+
+/* Reponse Box */
 .reponseBox {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
     border: 3px solid black;
     border-radius: 20px;
     background-color: white;
 }
 
-.body {
-    overflow: hidden;
+
+
+
+/* Position */
+.flexCenter{
+    display: flex;
+    justify-content: center;
 }
 
-.f {
-    margin-top: 1000px;
+.flexEvenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* Fonts */
+/* Texte */
+@font-face {
+    font-family: Laila;
+    src: url(../Ressources/Fonts/Laila/Laila-Regular.ttf);
+}
+/* Title */
+@font-face {
+    font-family: Merienda;
+    src: url(../Ressources/Fonts/Merienda/static/Merienda-Regular.ttf);
 }
