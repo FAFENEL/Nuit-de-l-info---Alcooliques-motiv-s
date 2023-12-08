@@ -10,6 +10,13 @@
     left: 15%;
 }
 
+.aide {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 5%;
+}
+
 
 /* Autre */
 

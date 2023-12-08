@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;600&family=Merienda:wght@700&display=swap');
+body{
+    margin: 0 ;
+}
+#div_princ{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 100px;
+    font-family: 'Laila', serif;
+    font-size: 20px;
+    transition-property: height;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: #846655;
+    color: white; 
+    border-color: rgb(62, 45,35) ;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: justify;
+
+}
+.inter{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.child h2 {
+     padding-left: 5%;
+}
+.child h3 {
+    padding-left: 5%;
+}
+#div_princ2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 100px;
+    font-family: 'Laila', serif;
+    font-size: 20px;
+    transition-property: height;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: #846655;
+    color: white; 
+    border-color: rgb(59, 33, 0) ;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: justify;
+
+}
+#div_princ3{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 100px;
+    font-family: 'Laila', serif;
+    font-size: 20px;
+    transition-property: height;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: #846655;
+    color: white; 
+    border-color: rgb(59, 33, 0) ;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: justify;
+
+}
+.titre{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-family: 'Merienda', cursive;;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav li{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Laila', serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
