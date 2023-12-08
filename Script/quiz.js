@@ -60,3 +60,10 @@ function afficheFaux(affiche) {
     reponseF.classList.add("affiche");
     reponseT.classList.remove("affiche");
 }
+
+
+// AUTRE
+function appear(elementAppear) {
+    document.getElementById(elementAppear).classList.toggle("affiche");
+    document.getElementById("body").classList.toggle("body");
+}
